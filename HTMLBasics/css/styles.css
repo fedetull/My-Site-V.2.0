@@ -1,0 +1,36 @@
+/********************* Tag selector ****************************/
+
+body {
+    background-color: #bbe1fa;
+}
+
+hr {
+    border-color: #0f4c75;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #0f4c75;
+    border-color: black;
+}
+
+h3 {
+    color: #0f4c75;
+}
+
+
+/***************************** Class Selector *********************/
+
+.profilePicture {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+
+/***************************** ID Selector *******************************/

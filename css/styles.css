@@ -1,0 +1,138 @@
+/******************** Tag Selector **********************/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: verdana, sans-serif;
+}
+
+h1 {
+    /* the margin order is, Top, right, bottom, left */
+    margin: 50px auto 0 auto;
+    font-family: 'Great Vibes', cursive;
+    /* the method to calculate the percent is 100% = 16px = 1rem then (90px / 16) = 562.5% = 5.625rem*/
+    font-size: 5.625rem;
+    color: #393e46;
+}
+
+h2 {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 2.5rem;
+    color: #393e46;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #393e46;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    border-color: #616d75;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+
+/*********************** Class Selector ************************/
+
+.top-container {
+    background-color: #00adb5;
+    position: relative;
+    padding-top: 80px;
+}
+
+.middle-container {
+    background-color: #eeeeee;
+    position: relative;
+    padding-top: 40px;
+    font: color
+}
+
+.profile-picture {
+    border-radius: 100px;
+    width: 200px;
+    height: 225px;
+}
+
+.bottom-container {
+    background-color: #222831;
+    position: relative;
+    padding-top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 550px;
+    top: 60px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 600px;
+    bottom: 300px
+}
+
+.bottom-text {
+    color: #eeeeee;
+}
+
+.footer-link {
+    color: #00adb5;
+}
+
+.programmer {
+    font-weight: normal;
+    line-height: 2px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-icon-left {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-icon-right {
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    display: inline-block;
+    color: #393e46;
+    font-weight: bold;
+    line-height: 2.2em;
+    padding: 0 0.62em;
+    border: 2px solid #666;
+    border-radius: 2em;
+    background-image: linear-gradient( to bottom, #e9a831, #eeeeee);
+    box-shadow: inset 0 0 0.1em #fff, 0.2em 0.2em 0.2em rgba( 0, 0, 0, 0.3);
+    font-size: 1.3em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    border-color: #3c7fb1;
+    background-image: linear-gradient( to bottom, #fff, #a9dbf6);
+}
+
+.btn:focus {
+    padding: 0 0.56em 0 0.68em;
+}
